@@ -6,11 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.gb.api.Book;
 import ru.gb.api.Reader;
+import ru.gb.timer.Timer;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@Timer
 @RestController
 @RequestMapping("/api/reader")
 public class ReaderController {

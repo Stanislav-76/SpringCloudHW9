@@ -7,3 +7,6 @@ eureka:
 spring:
   application:
     name: book-service
+timer:
+  enabled: true
+  log-level: warn
